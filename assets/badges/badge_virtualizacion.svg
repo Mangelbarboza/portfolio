@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 375" width="100%" height="100%">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 375" width="320" height="375">
   <defs>
     <!-- Gold Metallic Outer Gradient -->
     <linearGradient id="goldGrad_badge_virtualizacion" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -109,6 +109,6 @@
   <!-- Bottom Verification Footer Band -->
   <g transform="translate(160, 350)">
     <rect x="-115" y="-7" width="230" height="16" rx="8" fill="#2e1065" stroke="#a855f7" stroke-width="1" />
-    <text text-anchor="middle" y="5" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#f3e8ff" letter-spacing="0.4">Emisión Verificada en Blockchain &bull; POK</text>
+    <text text-anchor="middle" y="5" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#f3e8ff" letter-spacing="0.4">Emisión Verificada en Blockchain &#8226; POK</text>
   </g>
 </svg>
