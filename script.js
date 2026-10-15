@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 4. Saludo en consola
   console.log(
-    '%c🛡️ Ángel Barboza Reyes | Software & Cybersecurity\n%cCartago, Costa Rica | angelbarboza.com',
+    '%c[AB] Ángel Barboza Reyes | Software & Cybersecurity\n%cCartago, Costa Rica | angelbarboza.com',
     'color: #38bdf8; font-weight: bold; font-size: 14px;',
     'color: #94a3b8; font-size: 12px;'
   );

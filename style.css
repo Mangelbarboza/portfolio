@@ -412,6 +412,13 @@ body {
   font-weight: 600;
   color: var(--text-primary);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.location-floating-tag svg {
+  color: var(--primary);
 }
 
 /* Disponibilidad Banner Card */
@@ -499,8 +506,22 @@ body {
 }
 
 .avail-icon-box {
-  font-size: 2rem;
-  line-height: 1;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.avail-item.highlight-item .avail-icon-box {
+  background: rgba(168, 85, 247, 0.1);
+  border-color: rgba(168, 85, 247, 0.3);
+  color: #c084fc;
 }
 
 .avail-title {
@@ -782,8 +803,10 @@ body {
 }
 
 .cat-pill {
-  display: inline-block;
-  font-size: 1.15rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
   font-weight: 800;
   padding: 0.45rem 1rem;
   border-radius: 10px;
@@ -831,6 +854,9 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .filter-btn:hover {
