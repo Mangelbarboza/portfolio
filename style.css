@@ -554,10 +554,15 @@ body {
 }
 
 .avail-list li::before {
-  content: '✓';
+  content: '';
   position: absolute;
   left: 0;
-  color: #22c55e;
+  top: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 8px #38bdf8;
 }
 
 .internship-badge {
@@ -973,6 +978,51 @@ body {
   border-radius: 6px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
+}
+
+.project-card.featured-client-card {
+  border-color: rgba(56, 189, 248, 0.45);
+  background: linear-gradient(135deg, rgba(14, 30, 58, 0.9) 0%, rgba(10, 22, 44, 0.95) 100%);
+}
+
+.project-card.featured-client-card:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 20px 45px -10px rgba(56, 189, 248, 0.35);
+}
+
+.project-card-footer {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-live-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.project-live-btn:hover {
+  background: #38bdf8;
+  color: #0b1120;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.35);
+  transform: translateY(-1px);
+}
+
+.on-premise-tag {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-secondary);
+  opacity: 0.8;
 }
 
 /* Formación Académica UCR */
