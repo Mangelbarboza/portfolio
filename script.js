@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isExpanded = badgesContainer.classList.toggle('expanded');
       badgesToggle.setAttribute('aria-expanded', isExpanded);
       if (badgesToggleLabel) {
-        badgesToggleLabel.textContent = isExpanded ? 'Ocultar Insignias' : 'Ver Insignias';
+        badgesToggleLabel.textContent = isExpanded ? 'Enrollar Certificaciones' : 'Desplegar Certificaciones';
       }
     });
   }
