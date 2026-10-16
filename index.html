@@ -27,7 +27,6 @@
       <nav class="nav-menu" id="nav-menu">
         <a href="#disponibilidad" class="nav-link">Disponibilidad</a>
         <a href="#formacion" class="nav-link">Formación</a>
-        <a href="#credenciales-irsi" class="nav-link">Credenciales IRSI</a>
         <a href="#proyectos" class="nav-link">Proyectos</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#contacto" class="nav-btn">Contacto</a>
@@ -44,16 +43,6 @@
   <!-- Hero Section -->
   <section id="hero" class="hero-section">
     <div class="hero-content">
-      
-      <!-- Disponibilidad Banner en el Hero -->
-      <a href="#disponibilidad" class="hero-badge-link">
-        <div class="hero-badge">
-          <span class="pulse-dot"></span>
-          <span>Disponible actualmente &bull; Empleo flexible &bull; Pasantía 2027</span>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </div>
-      </a>
-
       <div class="hero-header-row">
         <div class="hero-text-block">
           <h1 class="hero-title">
@@ -75,9 +64,9 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
               Ver Proyectos
             </a>
-            <a href="#credenciales-irsi" class="btn btn-accent">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              Insignias IRSI
+            <a href="#formacion" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              Formación
             </a>
             <a href="https://linkedin.com/in/angel-armando-barboza-reyes-837b431b8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -163,7 +152,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
         <span>Educación Superior &amp; Trayectoria Técnica</span>
       </div>
-      <h2 class="section-title">Formación Académica &amp; Profesional</h2>
+      <h2 class="section-title">Formación</h2>
       <p class="section-subtitle">Universidad de Costa Rica (UCR), IRSI y compromiso comunitario</p>
     </div>
 
@@ -207,20 +196,29 @@
         </p>
       </div>
     </div>
-  </section>
 
-  <!-- Muro de Credenciales IRSI -->
-  <section id="credenciales-irsi" class="section section-dark">
-    <div class="section-header">
-      <div class="section-tag-badge">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        <span>Information Risk & Security Institute (IRSI)</span>
-      </div>
-      <h2 class="section-title">Muro de Credenciales de Ciberseguridad</h2>
-      <p class="section-subtitle">
-        Mis 9 insignias oficiales aprobadas en el programa de alto rendimiento de IRSI, con la 10ª insignia (Especialización CERT) a menos de 1 mes de culminar.
-      </p>
-      
+    <!-- Desplegable Animado de Insignias Oficiales IRSI -->
+    <div class="badges-accordion-container">
+      <button class="badges-accordion-trigger" id="badges-toggle" aria-expanded="false" aria-controls="badges-content">
+        <div class="badges-trigger-info">
+          <span class="badges-trigger-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </span>
+          <div class="badges-trigger-text">
+            <span class="badges-trigger-title">Acreditaciones Oficiales IRSI &bull; 10 Insignias</span>
+            <span class="badges-trigger-sub">9 Aprobadas &bull; 1 En Proceso (Especialización CERT) &bull; Verificación Criptográfica en POK</span>
+          </div>
+        </div>
+        <div class="badges-trigger-action">
+          <span class="badges-toggle-label">Ver Insignias</span>
+          <span class="badges-chevron">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </div>
+      </button>
+
+      <div class="badges-accordion-content" id="badges-content">
+        <div class="badges-accordion-inner">
       <div class="pok-verify-banner">
         <span>Todas las credenciales cuentan con verificación criptográfica pública:</span>
         <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="pok-btn">
@@ -523,6 +521,10 @@
     </div>
   </section>
 
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Proyectos (Separados por Clientes Reales y Personales) -->
   <section id="proyectos" class="section">
     <div class="section-header">
@@ -532,13 +534,12 @@
 
     <!-- Filter Buttons -->
     <div class="filter-container">
-      <button class="filter-btn active" data-filter="all">Todos los Proyectos</button>
-      <button class="filter-btn" data-filter="cliente-real">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+      <button class="filter-btn active" data-filter="cliente-real">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
         Clientes Reales
       </button>
       <button class="filter-btn" data-filter="personal">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         Proyectos Personales
       </button>
     </div>

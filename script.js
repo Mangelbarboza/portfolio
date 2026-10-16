@@ -25,45 +25,64 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. Filtrado de proyectos (Clientes Reales vs Personales)
+  // 3. Desplegable Animado de Insignias IRSI
+  const badgesToggle = document.getElementById('badges-toggle');
+  const badgesContainer = document.querySelector('.badges-accordion-container');
+  const badgesToggleLabel = document.querySelector('.badges-toggle-label');
+
+  if (badgesToggle && badgesContainer) {
+    badgesToggle.addEventListener('click', () => {
+      const isExpanded = badgesContainer.classList.toggle('expanded');
+      badgesToggle.setAttribute('aria-expanded', isExpanded);
+      if (badgesToggleLabel) {
+        badgesToggleLabel.textContent = isExpanded ? 'Ocultar Insignias' : 'Ver Insignias';
+      }
+    });
+  }
+
+  // 4. Filtrado de proyectos (Exclusivamente 2 categorías: Clientes Reales y Proyectos Personales)
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
   const categoryHeaders = document.querySelectorAll('.project-category-header');
 
+  function applyProjectFilter(targetFilter) {
+    filterBtns.forEach(btn => {
+      const isTarget = btn.getAttribute('data-filter') === targetFilter;
+      btn.classList.toggle('active', isTarget);
+    });
+
+    // Mostrar únicamente las tarjetas de la categoría seleccionada
+    projectCards.forEach(card => {
+      const category = card.getAttribute('data-category');
+      if (category === targetFilter) {
+        card.style.display = 'flex';
+        card.style.animation = 'fadeIn 0.35s ease forwards';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Mostrar únicamente el encabezado de la categoría activa
+    categoryHeaders.forEach(header => {
+      const cat = header.getAttribute('data-category');
+      header.style.display = cat === targetFilter ? 'block' : 'none';
+    });
+  }
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
       const filterValue = btn.getAttribute('data-filter');
-
-      // Filtrar cards
-      projectCards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        if (filterValue === 'all' || category === filterValue) {
-          card.style.display = 'flex';
-          card.style.animation = 'fadeIn 0.35s ease forwards';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-
-      // Filtrar encabezados de categoría
-      categoryHeaders.forEach(header => {
-        const cat = header.getAttribute('data-category');
-        if (filterValue === 'all' || cat === filterValue) {
-          header.style.display = 'block';
-        } else {
-          header.style.display = 'none';
-        }
-      });
+      applyProjectFilter(filterValue);
     });
   });
 
-  // 4. Saludo en consola
+  // Inicializar mostrando únicamente "Clientes Reales" por defecto
+  applyProjectFilter('cliente-real');
+
+  // 5. Saludo en consola (Paleta cálida)
   console.log(
-    '%c[AB] Ángel Barboza Reyes | Software & Cybersecurity\n%cCartago, Costa Rica | angelbarboza.com',
-    'color: #38bdf8; font-weight: bold; font-size: 14px;',
-    'color: #94a3b8; font-size: 12px;'
+    '%c[AB] Ángel Barboza Reyes | Software Developer & Defensive Cybersecurity\n%cCartago, Costa Rica | angelbarboza.com',
+    'color: #9e744d; font-weight: bold; font-size: 14px;',
+    'color: #6b5e54; font-size: 12px;'
   );
 });

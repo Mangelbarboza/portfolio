@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 375" width="320" height="375">
   <defs>
-    <!-- Gold Metallic Outer Gradient -->
+    <!-- Metallic Brass & Gold Gradient -->
     <linearGradient id="goldGrad_badge_cert_especializacion" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fff8e1" />
-      <stop offset="25%" stop-color="#f59e0b" />
-      <stop offset="50%" stop-color="#b45309" />
-      <stop offset="75%" stop-color="#fbbf24" />
-      <stop offset="100%" stop-color="#78350f" />
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="25%" stop-color="#dfa968" />
+      <stop offset="50%" stop-color="#9e6932" />
+      <stop offset="75%" stop-color="#edd0ac" />
+      <stop offset="100%" stop-color="#694017" />
     </linearGradient>
 
-    <!-- Inner Shield Gradient -->
+    <!-- Deep Coffee Shield Gradient -->
     <radialGradient id="shieldBg_badge_cert_especializacion" cx="50%" cy="32%" r="68%">
-      <stop offset="0%" stop-color="#381704" />
-      <stop offset="55%" stop-color="#1a0b02" />
-      <stop offset="100%" stop-color="#0d0501" />
+      <stop offset="0%" stop-color="#382315" />
+      <stop offset="55%" stop-color="#22130a" />
+      <stop offset="100%" stop-color="#120904" />
     </radialGradient>
 
-    <!-- Ribbon Gradient -->
+    <!-- Warm Coffee Ribbon Gradient -->
     <linearGradient id="ribbonGrad_badge_cert_especializacion" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b45309" />
-      <stop offset="50%" stop-color="#f59e0b" />
-      <stop offset="100%" stop-color="#b45309" />
+      <stop offset="0%" stop-color="#8a582b" />
+      <stop offset="50%" stop-color="#be8148" />
+      <stop offset="100%" stop-color="#8a582b" />
     </linearGradient>
 
-    <!-- Crisp Drop Shadow -->
+    <!-- Subtle Warm Shadow -->
     <filter id="shadow_badge_cert_especializacion" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1f140e" flood-opacity="0.35" />
     </filter>
   </defs>
 
-  <!-- Outer Shield Frame with Gold Border -->
+  <!-- Outer Shield Frame with Metallic Border -->
   <g filter="url(#shadow_badge_cert_especializacion)">
-    <!-- Gold Trim -->
+    <!-- Trim -->
     <path d="M160,16 C206,16 246,28 272,44 C277,130 266,226 160,326 C54,226 43,130 48,44 C74,28 114,16 160,16 Z"
-          fill="url(#goldGrad_badge_cert_especializacion)" stroke="#ffd875" stroke-width="1.5" />
+          fill="url(#goldGrad_badge_cert_especializacion)" stroke="#e2cca7" stroke-width="1.5" />
 
-    <!-- Inner Deep Navy Shield -->
+    <!-- Inner Coffee Shield -->
     <path d="M160,24 C202,24 240,35 263,49 C268,128 257,218 160,314 C63,218 52,128 57,49 C80,35 118,24 160,24 Z"
-          fill="url(#shieldBg_badge_cert_especializacion)" stroke="#a07820" stroke-width="2" />
+          fill="url(#shieldBg_badge_cert_especializacion)" stroke="#8a6642" stroke-width="2" />
 
-    <!-- Thin Glass Highlight Line -->
+    <!-- Thin Highlight Line -->
     <path d="M160,30 C198,30 234,40 256,53 C260,124 250,210 160,302 C70,210 60,124 64,53 C86,40 122,30 160,30 Z"
-          fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1" />
+          fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="1" />
   </g>
 
   <!-- IRSI Header Section -->
@@ -52,20 +52,20 @@
     <!-- Gold Underline Divider -->
     <line x1="-54" y1="10" x2="54" y2="10" stroke="url(#goldGrad_badge_cert_especializacion)" stroke-width="1.5" stroke-linecap="round" />
     
-    <text y="22" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#ffd875" letter-spacing="1">INFORMATION RISK &amp; SECURITY INSTITUTE</text>
-    <text y="36" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="7.5" font-style="italic" fill="#94a3b8">Insignia emitida por la aprobación del curso</text>
+    <text y="22" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#edd0ac" letter-spacing="1">INFORMATION RISK &amp; SECURITY INSTITUTE</text>
+    <text y="36" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="7.5" font-style="italic" fill="#c4b5a5">Insignia emitida por la aprobación del curso</text>
   </g>
 
   <!-- 3D Ribbon Banner for Course Title -->
   <g transform="translate(0, 134)">
     <!-- Ribbon Left Wing Shadow and Fold -->
-    <polygon points="22,38 46,12 46,46" fill="#040d1a" opacity="0.8" />
-    <polygon points="14,18 46,12 46,46 14,42" fill="#b45309" filter="brightness(0.65)" />
+    <polygon points="22,38 46,12 46,46" fill="#100a07" opacity="0.8" />
+    <polygon points="14,18 46,12 46,46 14,42" fill="#8a582b" filter="brightness(0.7)" />
     <polyline points="14,18 46,12 46,46 14,42" fill="none" stroke="url(#goldGrad_badge_cert_especializacion)" stroke-width="1" />
 
     <!-- Ribbon Right Wing Shadow and Fold -->
-    <polygon points="298,38 274,12 274,46" fill="#040d1a" opacity="0.8" />
-    <polygon points="306,18 274,12 274,46 306,42" fill="#b45309" filter="brightness(0.65)" />
+    <polygon points="298,38 274,12 274,46" fill="#100a07" opacity="0.8" />
+    <polygon points="306,18 274,12 274,46 306,42" fill="#8a582b" filter="brightness(0.7)" />
     <polyline points="306,18 274,12 274,46 306,42" fill="none" stroke="url(#goldGrad_badge_cert_especializacion)" stroke-width="1" />
 
     <!-- Ribbon Center Front Plaque -->
@@ -82,17 +82,17 @@
   <!-- Lower Section (Official Certified Seal & Date - Clean without QR) -->
   <g transform="translate(160, 206)" text-anchor="middle">
     <!-- Date of Completion -->
-    <text y="0" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#94a3b8" letter-spacing="1">FECHA DE EMISIÓN</text>
+    <text y="0" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#c4b5a5" letter-spacing="1">FECHA DE EMISIÓN</text>
     <text y="14" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#ffffff">Culminación: 2026</text>
 
     <!-- Official Medallion Seal -->
     <g transform="translate(0, 44)">
       <!-- Outer Seal Ring -->
-      <circle cx="0" cy="0" r="23" fill="#0d0501" stroke="url(#goldGrad_badge_cert_especializacion)" stroke-width="2" />
+      <circle cx="0" cy="0" r="23" fill="#120904" stroke="url(#goldGrad_badge_cert_especializacion)" stroke-width="2" />
       <!-- Dotted Security Circle -->
-      <circle cx="0" cy="0" r="19" fill="none" stroke="#ffd875" stroke-width="0.75" stroke-dasharray="2.5,2" opacity="0.8" />
+      <circle cx="0" cy="0" r="19" fill="none" stroke="#e2cca7" stroke-width="0.75" stroke-dasharray="2.5,2" opacity="0.8" />
       <!-- Inner Solid Core -->
-      <circle cx="0" cy="0" r="16" fill="#1a0b02" />
+      <circle cx="0" cy="0" r="16" fill="#22130a" />
       
       <!-- Specialized Center Vector Icon -->
       
@@ -101,12 +101,12 @@
     </g>
 
     <!-- Accreditation Label -->
-    <text y="82" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8" font-weight="800" fill="#ffd875" letter-spacing="1.2">&#9733; ACREDITACIÓN IRSI &#9733;</text>
+    <text y="82" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8" font-weight="800" fill="#edd0ac" letter-spacing="1.2">&#9733; ACREDITACIÓN IRSI &#9733;</text>
   </g>
 
   <!-- Bottom Verification Footer Band (Clickable Callout) -->
   <g transform="translate(160, 348)">
-    <rect x="-115" y="-10" width="230" height="20" rx="10" fill="#451a03" stroke="#f59e0b" stroke-width="1.2" />
-    <text text-anchor="middle" y="4" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#fde68a" letter-spacing="0.6">ESPECIALIZACIÓN CERT &#8226; POK</text>
+    <rect x="-115" y="-10" width="230" height="20" rx="10" fill="#29170b" stroke="#be8148" stroke-width="1.2" />
+    <text text-anchor="middle" y="4" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#edd8c2" letter-spacing="0.6">ESPECIALIZACIÓN CERT &#8226; POK</text>
   </g>
 </svg>
