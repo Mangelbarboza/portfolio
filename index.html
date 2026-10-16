@@ -93,53 +93,79 @@
   </section>
 
   <!-- Banner Destacado: Estado Actual / Disponibilidad -->
-  <section id="disponibilidad" class="section">
-    <div class="availability-card">
-      <div class="availability-header">
-        <div class="status-indicator">
-          <span class="status-live-dot"></span>
-          <span class="status-text">Disponible Actualmente para Nuevas Oportunidades</span>
+  <section id="disponibilidad" class="section section-availability">
+    <div class="avail-card-premium">
+      <div class="avail-top-banner">
+        <div class="avail-status-tag">
+          <span class="pulse-indicator">
+            <span class="pulse-ring"></span>
+            <span class="pulse-core"></span>
+          </span>
+          <span class="avail-status-text">Disponible Actualmente &bull; Búsqueda Activa</span>
         </div>
-        <span class="loc-badge">Cartago, Costa Rica &bull; Remoto / Híbrido</span>
-      </div>
-
-      <div class="availability-grid">
-        <div class="avail-item">
-          <div class="avail-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-          </div>
-          <div class="avail-content">
-            <h3 class="avail-title">Oportunidades de Empleo Actual</h3>
-            <p class="avail-desc">
-              Buscando activamente una posición en <strong>desarrollo de software (Full Stack / Móvil)</strong> o <strong>ciberseguridad</strong> que ofrezca flexibilidad con mis estudios universitarios en la UCR:
-            </p>
-            <ul class="avail-list">
-              <li>Modalidad remota</li>
-              <li>Medio tiempo o tiempo completo flexible</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="avail-item highlight-item">
-          <div class="avail-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
-          </div>
-          <div class="avail-content">
-            <h3 class="avail-title">Pasantía Profesional 2027</h3>
-            <p class="avail-desc">
-              En búsqueda activa de una <strong>pasantía profesional universitaria para el Primer Semestre de 2027</strong> como parte de la culminación de mi carrera en Informática Empresarial (UCR).
-            </p>
-            <div class="internship-badge">Primer Semestre 2027 (UCR)</div>
-          </div>
+        <div class="avail-location-tag">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Cartago, Costa Rica &bull; Remoto / Híbrido</span>
         </div>
       </div>
 
-      <div class="avail-footer">
-        <p>¿Tienes una oportunidad que encaje con mi perfil? Conectemos de inmediato:</p>
-        <a href="mailto:angelbarbozareyes29@gmail.com" class="btn btn-primary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-          Contactar por Correo
-        </a>
+      <div class="avail-main-grid">
+        <!-- Tarjeta 1: Empleo Inmediato -->
+        <div class="avail-target-card">
+          <div class="avail-target-header">
+            <div class="avail-target-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="avail-target-titles">
+              <span class="avail-target-kicker">Disponibilidad Inmediata</span>
+              <h3 class="avail-target-title">Empleo con Flexibilidad Horaria</h3>
+            </div>
+          </div>
+          <p class="avail-target-desc">
+            Abierto a incorporarme de inmediato en roles de <strong>Desarrollo de Software</strong> (Full Stack, Web o Móvil) o <strong>Ciberseguridad Defensiva</strong> que permitan balance con mis cursos universitarios en la UCR:
+          </p>
+          <div class="avail-perks-row">
+            <span class="avail-perk-pill">Modalidad Remota</span>
+            <span class="avail-perk-pill">Medio Tiempo / Parcial</span>
+            <span class="avail-perk-pill">Tiempo Completo Flexible</span>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2: Pasantía 2027 -->
+        <div class="avail-target-card featured-pasantia">
+          <div class="avail-target-header">
+            <div class="avail-target-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </div>
+            <div class="avail-target-titles">
+              <span class="avail-target-kicker highlight-kicker">Objetivo Académico &bull; UCR</span>
+              <h3 class="avail-target-title">Pasantía Profesional 2027</h3>
+            </div>
+          </div>
+          <p class="avail-target-desc">
+            Buscando activamente convenio o plaza para realizar mi <strong>práctica profesional universitaria durante el Primer Semestre de 2027</strong> para culminar el Bachillerato en Informática Empresarial de la UCR.
+          </p>
+          <div class="avail-perks-row">
+            <span class="avail-perk-pill highlight">Primer Semestre 2027</span>
+            <span class="avail-perk-pill">Informática Empresarial UCR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="avail-action-strip">
+        <div class="avail-strip-text">
+          <strong>¿Tienes una posición o proyecto en mente?</strong> Conversemos sobre cómo puedo aportar valor técnico a tu equipo.
+        </div>
+        <div class="avail-strip-actions">
+          <a href="mailto:angelbarbozareyes29@gmail.com" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Contactar por Correo
+          </a>
+          <a href="https://linkedin.com/in/angel-armando-barboza-reyes-837b431b8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -153,7 +179,7 @@
         <span>Educación Superior &amp; Trayectoria Técnica</span>
       </div>
       <h2 class="section-title">Formación</h2>
-      <p class="section-subtitle">Universidad de Costa Rica (UCR), IRSI y compromiso comunitario</p>
+      <p class="section-subtitle">Universidad de Costa Rica (UCR), Information Risk and Security Institute (IRSI) y compromiso comunitario</p>
     </div>
 
     <div class="ucr-grid">
@@ -177,7 +203,7 @@
           <span class="status-pill in-progress">En proceso</span>
         </div>
         <h3 class="ucr-title">Especialización en Ciberseguridad &amp; CERT</h3>
-        <p class="ucr-org">Information Risk &amp; Security Institute (IRSI)</p>
+        <p class="ucr-org">Information Risk and Security Institute (IRSI)</p>
         <p class="ucr-desc">
           Programa intensivo de formación en seguridad defensiva (Blue Team): respuesta a incidentes, análisis forense digital, hardening de sistemas, pentesting y análisis de vulnerabilidades, seguridad cloud y recta final hacia la especialización CERT.
         </p>
@@ -198,15 +224,15 @@
     </div>
 
     <!-- Desplegable Animado de Insignias Oficiales IRSI -->
-    <div class="badges-accordion-container">
-      <button class="badges-accordion-trigger" id="badges-toggle" aria-expanded="false" aria-controls="badges-content">
+    <div class="badges-accordion-container" id="badges-accordion">
+      <button class="badges-accordion-trigger" id="badges-toggle" type="button" aria-expanded="false" aria-controls="badges-content">
         <div class="badges-trigger-info">
           <span class="badges-trigger-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </span>
           <div class="badges-trigger-text">
-            <span class="badges-trigger-title">Acreditaciones Oficiales IRSI &bull; 10 Insignias</span>
-            <span class="badges-trigger-sub">9 Aprobadas &bull; 1 En Proceso (Especialización CERT) &bull; Verificación Criptográfica en POK</span>
+            <span class="badges-trigger-title">Acreditaciones Oficiales &bull; Information Risk and Security Institute (IRSI)</span>
+            <span class="badges-trigger-sub">10 Insignias Técnicas &bull; Verificación Criptográfica Pública en POK</span>
           </div>
         </div>
         <div class="badges-trigger-action">
@@ -219,308 +245,298 @@
 
       <div class="badges-accordion-content" id="badges-content">
         <div class="badges-accordion-inner">
-      <div class="pok-verify-banner">
-        <span>Todas las credenciales cuentan con verificación criptográfica pública:</span>
-        <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="pok-btn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Verificar Credenciales en POK (Proof of Knowledge)
-        </a>
-      </div>
-    </div>
+          <div class="pok-verify-banner">
+            <div class="pok-banner-text">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              <span>Todas las credenciales cuentan con verificación criptográfica pública:</span>
+            </div>
+            <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="pok-btn">
+              <span>Verificar en POK (Proof of Knowledge)</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
 
-    <div class="credentials-grid">
-      <!-- 1. Seguridad de la Información -->
-      <div class="cred-card top-tier">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_seguridad_informacion.svg" alt="Insignia Oficial Seguridad de la Información IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">14/08/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Seguridad de la Información</h3>
-        <p class="cred-instructor">Prof. Antonio Cabrera &bull; IRSI</p>
-        <p class="cred-desc">
-          Análisis forense digital, respuesta a incidentes, hardening de sistemas y análisis de vulnerabilidades para frenar ataques en entornos corporativos reales.
-        </p>
-        <div class="cred-tags">
-          <span>Blue Team</span>
-          <span>Forense Digital</span>
-          <span>Hardening</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+          <div class="credentials-grid">
+            <!-- 1. Seguridad de la Información -->
+            <div class="cred-card top-tier">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_seguridad_informacion.svg" alt="Insignia Oficial Seguridad de la Información IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">14/08/2026</span>
+              </div>
+              <h3 class="cred-title">Seguridad de la Información</h3>
+              <p class="cred-instructor">Prof. Antonio Cabrera &bull; IRSI</p>
+              <p class="cred-desc">
+                Análisis forense digital, respuesta a incidentes, hardening de sistemas y análisis de vulnerabilidades para frenar ataques en entornos corporativos reales.
+              </p>
+              <div class="cred-tags">
+                <span>Blue Team</span>
+                <span>Forense Digital</span>
+                <span>Hardening</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 2. Administración de Proyectos -->
-      <div class="cred-card top-tier">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_administracion_proyectos.svg" alt="Insignia Oficial Administración de Proyectos IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">14/08/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Administración de Proyectos</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Gestión estructurada del alcance, evaluación de riesgos tecnológicos y planificación de cronogramas para implementar controles de seguridad con éxito corporativo.
-        </p>
-        <div class="cred-tags">
-          <span>Project Management</span>
-          <span>Cronogramas</span>
-          <span>Gobernanza</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 2. Administración de Proyectos -->
+            <div class="cred-card top-tier">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_administracion_proyectos.svg" alt="Insignia Oficial Administración de Proyectos IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">14/08/2026</span>
+              </div>
+              <h3 class="cred-title">Administración de Proyectos</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Gestión estructurada del alcance, evaluación de riesgos tecnológicos y planificación de cronogramas para implementar controles de seguridad con éxito corporativo.
+              </p>
+              <div class="cred-tags">
+                <span>Project Management</span>
+                <span>Cronogramas</span>
+                <span>Gobernanza</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 3. Fundamentos de Cloud -->
-      <div class="cred-card top-tier">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_fundamentos_cloud.svg" alt="Insignia Oficial Fundamentos de Cloud IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">03/08/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Fundamentos de Cloud (AWS)</h3>
-        <p class="cred-instructor">Prof. Matías Ignacio Allende &bull; IRSI</p>
-        <p class="cred-desc">
-          Seguridad en la nube sobre AWS: modelo de responsabilidad compartida, gestión estricta de accesos e identidades (IAM) y prevención de malas configuraciones.
-        </p>
-        <div class="cred-tags">
-          <span>AWS</span>
-          <span>Cloud Security</span>
-          <span>IAM</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 3. Fundamentos de Cloud -->
+            <div class="cred-card top-tier">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_fundamentos_cloud.svg" alt="Insignia Oficial Fundamentos de Cloud IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">03/08/2026</span>
+              </div>
+              <h3 class="cred-title">Fundamentos de Cloud (AWS)</h3>
+              <p class="cred-instructor">Prof. Matías Ignacio Allende &bull; IRSI</p>
+              <p class="cred-desc">
+                Seguridad en la nube sobre AWS: modelo de responsabilidad compartida, gestión estricta de accesos e identidades (IAM) y prevención de malas configuraciones.
+              </p>
+              <div class="cred-tags">
+                <span>AWS</span>
+                <span>Cloud Security</span>
+                <span>IAM</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 4. Scripting -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_scripting.svg" alt="Insignia Oficial Scripting IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">09/07/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Scripting & Automatización</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Desarrollo de scripts avanzados para auditorías automáticas de seguridad en servidores, interacción profunda con sistemas y procesamiento masivo de datos técnicos.
-        </p>
-        <div class="cred-tags">
-          <span>Automation</span>
-          <span>Scripting</span>
-          <span>SysAdmin</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 4. Scripting -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_scripting.svg" alt="Insignia Oficial Scripting IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">09/07/2026</span>
+              </div>
+              <h3 class="cred-title">Scripting &amp; Automatización</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Desarrollo de scripts avanzados para auditorías automáticas de seguridad en servidores, interacción profunda con sistemas y procesamiento masivo de datos técnicos.
+              </p>
+              <div class="cred-tags">
+                <span>Automation</span>
+                <span>Scripting</span>
+                <span>SysAdmin</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 5. Linux para Ciberseguridad -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_linux.svg" alt="Insignia Oficial Linux para Ciberseguridad IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">16/06/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Linux para Ciberseguridad</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Administración de servidores e infraestructura crítica en entornos Linux, análisis de sistemas y gestión de configuraciones seguras.
-        </p>
-        <div class="cred-tags">
-          <span>Linux</span>
-          <span>SysAdmin</span>
-          <span>Infosec</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 5. Linux para Ciberseguridad -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_linux.svg" alt="Insignia Oficial Linux para Ciberseguridad IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">16/06/2026</span>
+              </div>
+              <h3 class="cred-title">Linux para Ciberseguridad</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Administración de servidores e infraestructura crítica en entornos Linux, análisis de sistemas y gestión de configuraciones seguras.
+              </p>
+              <div class="cred-tags">
+                <span>Linux</span>
+                <span>SysAdmin</span>
+                <span>Infosec</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 6. Fundamentos de Ciberseguridad -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_fundamentos_ciberseguridad.svg" alt="Insignia Oficial Fundamentos de Ciberseguridad IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">19/05/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Fundamentos de Ciberseguridad</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Base teórica y práctica en políticas de seguridad, análisis cuantitativo y cualitativo de riesgos, y diseño de medidas de mitigación para activos organizacionales.
-        </p>
-        <div class="cred-tags">
-          <span>Políticas</span>
-          <span>Análisis de Riesgos</span>
-          <span>Mitigación</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 6. Fundamentos de Ciberseguridad -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_fundamentos_ciberseguridad.svg" alt="Insignia Oficial Fundamentos de Ciberseguridad IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">19/05/2026</span>
+              </div>
+              <h3 class="cred-title">Fundamentos de Ciberseguridad</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Base teórica y práctica en políticas de seguridad, análisis cuantitativo y cualitativo de riesgos, y diseño de medidas de mitigación para activos organizacionales.
+              </p>
+              <div class="cred-tags">
+                <span>Políticas</span>
+                <span>Análisis de Riesgos</span>
+                <span>Mitigación</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 7. Windows Server -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_windows_server.svg" alt="Insignia Oficial Windows Server IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">19/05/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Windows Server Empresarial</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Gestión de identidades empresariales, control de accesos mediante Directivas de Grupo (GPO) y configuración segura de servicios corporativos desde la raíz.
-        </p>
-        <div class="cred-tags">
-          <span>Active Directory</span>
-          <span>GPO</span>
-          <span>Windows Server</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 7. Windows Server -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_windows_server.svg" alt="Insignia Oficial Windows Server IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">19/05/2026</span>
+              </div>
+              <h3 class="cred-title">Windows Server Empresarial</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Gestión de identidades empresariales, control de accesos mediante Directivas de Grupo (GPO) y configuración segura de servicios corporativos desde la raíz.
+              </p>
+              <div class="cred-tags">
+                <span>Active Directory</span>
+                <span>GPO</span>
+                <span>Windows Server</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 8. Redes (Networking) -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_redes.svg" alt="Insignia Oficial Redes IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">27/04/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Redes y Seguridad Perimetral</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Análisis de tráfico, protocolos de red, arquitectura de comunicación de sistemas y detección de vectores de ataque en infraestructuras interconectadas.
-        </p>
-        <div class="cred-tags">
-          <span>Networking</span>
-          <span>Análisis de Tráfico</span>
-          <span>Protocolos</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 8. Redes (Networking) -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_redes.svg" alt="Insignia Oficial Redes IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">27/04/2026</span>
+              </div>
+              <h3 class="cred-title">Redes y Seguridad Perimetral</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Análisis de tráfico, protocolos de red, arquitectura de comunicación de sistemas y detección de vectores de ataque en infraestructuras interconectadas.
+              </p>
+              <div class="cred-tags">
+                <span>Networking</span>
+                <span>Análisis de Tráfico</span>
+                <span>Protocolos</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 9. Virtualización -->
-      <div class="cred-card">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_virtualizacion.svg" alt="Insignia Oficial Virtualización IRSI" class="cred-badge-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date">09/03/2026</span>
-          <span class="cred-status-badge verified">Aprobado</span>
-        </div>
-        <h3 class="cred-title">Virtualización</h3>
-        <p class="cred-instructor">Information Risk and Security Institute</p>
-        <p class="cred-desc">
-          Arquitectura de entornos controlados y sandboxes para investigación de vulnerabilidades, aislamiento de amenazas y análisis seguro de malware.
-        </p>
-        <div class="cred-tags">
-          <span>Virtualización</span>
-          <span>Sandboxing</span>
-          <span>Lab Security</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
+            <!-- 9. Virtualización -->
+            <div class="cred-card">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_virtualizacion.svg" alt="Insignia Oficial Virtualización IRSI" class="cred-badge-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill">09/03/2026</span>
+              </div>
+              <h3 class="cred-title">Virtualización</h3>
+              <p class="cred-instructor">Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                Arquitectura de entornos controlados y sandboxes para investigación de vulnerabilidades, aislamiento de amenazas y análisis seguro de malware.
+              </p>
+              <div class="cred-tags">
+                <span>Virtualización</span>
+                <span>Sandboxing</span>
+                <span>Lab Security</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
 
-      <!-- 10. Especialización CERT (Próxima Meta) -->
-      <div class="cred-card cert-upcoming">
-        <div class="cred-badge-showcase">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
-            <img src="assets/badges/badge_cert_especializacion.svg" alt="Insignia Especialización CERT en curso" class="cred-badge-img cert-img">
-          </a>
-        </div>
-        <div class="cred-meta-row">
-          <span class="cred-date cert-gold-date">Culminación: 2026</span>
-          <span class="cred-status-badge upcoming">En proceso</span>
-        </div>
-        <h3 class="cred-title">Especialización CERT</h3>
-        <p class="cred-instructor">Computer Emergency Response Team &bull; IRSI</p>
-        <p class="cred-desc">
-          La gran meta de mi especialización: formación técnica de élite para equipos de respuesta ante emergencias cibernéticas, contención de incidentes críticos y ciberdefensa avanzada.
-        </p>
-        <div class="cred-tags cert-tags">
-          <span>CERT</span>
-          <span>Incident Response</span>
-          <span>Blue Team Elite</span>
-        </div>
-        <div class="cred-verify-action">
-          <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
-            <span>Verificar en POK</span>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+            <!-- 10. Especialización CERT (Próxima Meta) -->
+            <div class="cred-card cert-upcoming">
+              <div class="cred-badge-showcase">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-badge-link" title="Verificar insignia oficial en POK">
+                  <img src="assets/badges/badge_cert_especializacion.svg" alt="Insignia Especialización CERT en curso" class="cred-badge-img cert-img">
+                </a>
+              </div>
+              <div class="cred-date-centered">
+                <span class="cred-date-pill cert-gold-pill">Culminación: 2026</span>
+              </div>
+              <h3 class="cred-title">Especialización CERT</h3>
+              <p class="cred-instructor">Computer Emergency Response Team &bull; Information Risk and Security Institute (IRSI)</p>
+              <p class="cred-desc">
+                La gran meta de mi especialización: formación técnica de élite para equipos de respuesta ante emergencias cibernéticas, contención de incidentes críticos y ciberdefensa avanzada.
+              </p>
+              <div class="cred-tags cert-tags">
+                <span>CERT</span>
+                <span>Incident Response</span>
+                <span>Blue Team Elite</span>
+              </div>
+              <div class="cred-verify-action">
+                <a href="https://view.pok.tech/l/ef34229b-0669-44c6-93ac-96a388e5a57a/public?referrer=0xf304cf99de6984a1cdc31c91aa15c4b82d61ee07" target="_blank" rel="noopener noreferrer" class="cred-verify-btn">
+                  <span>Verificar en POK</span>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -857,12 +873,23 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-inner">
-      <p class="footer-copy">
-        &copy; <span id="current-year"></span> Ángel Barboza Reyes &bull; 
-        <span class="footer-domain">angelbarboza.com</span> &bull; Cartago, Costa Rica
+      <div class="footer-brand">
+        <span class="footer-name">Ángel Barboza Reyes</span>
+        <span class="footer-divider">&bull;</span>
+        <span class="footer-domain">angelbarboza.com</span>
+      </div>
+      <p class="footer-location">
+        Cartago, Costa Rica &bull; Desarrollo de Software &amp; Ciberseguridad Defensiva
       </p>
+      <div class="footer-social-links">
+        <a href="https://linkedin.com/in/angel-armando-barboza-reyes-837b431b8" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <span class="footer-dot">&bull;</span>
+        <a href="https://github.com/Mangelbarboza" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <span class="footer-dot">&bull;</span>
+        <a href="mailto:angelbarbozareyes29@gmail.com" class="footer-link">Correo Directo</a>
+      </div>
       <p class="footer-tagline">
-        Portafolio Oficial &bull; Diseñado con HTML5, CSS3 y JS &bull; Desplegado en Vercel
+        &copy; <span id="current-year"></span> Ángel Barboza Reyes &bull; Portafolio Oficial desplegado en Vercel
       </p>
     </div>
   </footer>
